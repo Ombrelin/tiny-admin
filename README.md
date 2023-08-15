@@ -9,10 +9,10 @@ This project is closer to a POC than anything else, but still usable.
 Implemented : 
 
 - Streaming logs to web UI
+- Restart container
 
 WIP (not working) : 
 
-- Restart container
 - Update container
 
 ## Usage
