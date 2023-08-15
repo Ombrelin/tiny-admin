@@ -3,7 +3,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM ombrelin/dotnet7-node:latest AS build
 WORKDIR /src
 COPY ["src/TinyAdmin.Web/TinyAdmin.Web.csproj", "src/TinyAdmin.Web/"]
 RUN dotnet restore "src/TinyAdmin.Web/TinyAdmin.Web.csproj"
